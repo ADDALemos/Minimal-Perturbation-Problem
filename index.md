@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+This webpage contains the different data sets that can be used to solve Minimal Perturbation Problems.
 
-You can use the [editor on GitHub](https://github.com/ADDALemos/Minimal-Perturbation-Problem/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Course Timetabling Case Study
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This case study consists on the data from the timetables of Instituto Superior T\'ecnico of the academic year of 2016/2017. This data sets are separeted in two semesters and in two campi (Alameda and Taguspark). The data sets for Alameda are considerbly harder.
 
-### Markdown
+This data sets have three types of files (.space, .time, .c) containning the data for the classrooms, timetables and curricula.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Space
 
-```markdown
-Syntax highlighted code block
+The space files contain the data about the classrooms: ```Name, capacity, id and type (hall/normal/Lab)``` The files contain the word _Lab_ contain only Laboratories, otherwise the file do not contain _Lab_.
 
-# Header 1
-## Header 2
-### Header 3
+### Timetable
 
-- Bulleted
-- List
+The timetables file contain the data about the scheaduled lectures: ```Acronym, starting hour, starting minutes, ending hour, ending minutes, day of the week, number of students enrolled, type (theoretical, problems),  room id and room name``` 
 
-1. Numbered
-2. List
+Consider the theoretical class of Alegbra course is lectured on monday from 9:30 to 10:00. This class has 45 students enrolled and it taught in the FA1 hall. The timetable file would have the following line ```AL, 9, 30, 10, 0, 2, 45, theoretical, 1, FA1```
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Curriculums
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ TBA
+ 
+### Applications
 
-### Jekyll Themes
+This data has been applied in the work present in https://github.com/ADDALemos/Compacter. 
+### Contact
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ADDALemos/Minimal-Perturbation-Problem/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any comments or questions, please [contact us](mailto:ines.lynce@tecnico.ulisboa.pt;alexandre.lemos@tecnico.ulisboa.pt;pedro.tiago.monteiro@tecnico.pt;?subject=[MPP-DataSets]).
