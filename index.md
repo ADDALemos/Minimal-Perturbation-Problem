@@ -17,7 +17,7 @@ The timetables file contain the data about the scheaduled lectures: ```Acronym, 
 Consider the theoretical class of Alegbra course is lectured on monday from 9:30 to 10:00. This class has 45 students enrolled and it taught in the FA1 hall. The timetable file would have the following line ```AL, 9, 30, 10, 0, 2, 45, theoretical, 1, FA1```
 
 
-### Curriculums
+### Curricula
 
  TBA
  
