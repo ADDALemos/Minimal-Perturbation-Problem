@@ -2,7 +2,7 @@ This repository contains the different data sets that can be used to solve Minim
 
 ## Course Timetabling Case Study
 
-This case study consists on the data from the timetables of Instituto Superior Técnico of the academic year of 2016/2017. This data sets are separated in two semesters and in two campi (Alameda and Taguspark). The data sets for Alameda are considerably larger.
+This case study consists on the data from the timetables of Instituto Superior T\'ecnico of the academic year of 2016/2017. This data sets are separated in two semesters and in two campi (Alameda and Taguspark). The data sets for Alameda are considerably larger.
 
 These data sets have three types of files containing the data for the classrooms, timetables and curricula of each IST campus (Alameda or Taguspark).
 
