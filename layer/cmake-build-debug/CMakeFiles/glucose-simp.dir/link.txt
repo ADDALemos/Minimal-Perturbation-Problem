@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/glucose-simp.dir/simp/Main.cc.o  -o glucose-simp  /usr/lib/libz.dylib libglucose.a /usr/lib/libz.dylib 

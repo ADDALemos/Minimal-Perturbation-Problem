@@ -1,5 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/MAC/glucose-syrup-4.1
-core/Solver.ccsimp/SimpSolver.ccutils/Options.ccutils/System.cc
--- Configuring done
--- Generating done
--- Build files have been written to: /Volumes/MAC/glucose-syrup-4.1/cmake-build-debug
