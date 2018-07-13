@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glucose"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose-mpp">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/glucose-mpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose-mpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose-mpp/fast">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/glucose-mpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose-mpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose-simp">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/glucose-simp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose-simp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose-simp/fast">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/glucose-simp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose-simp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose-syrup">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/glucose-syrup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose-syrup"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose-syrup/fast">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/glucose-syrup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose-syrup/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucosep">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/libglucosep.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucosep"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucosep/fast">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/libglucosep.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucosep/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/libglucose.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glucose/fast">
+				<Option output="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/libglucose.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Volumes/MAC/glucose-syrup-4.1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 glucose/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/MPP/Main.cc">
+			<Option target="glucose-mpp"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/MPP/SingleShot.cc">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/MPP/SingleShot.h">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/core/Solver.cc">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/core/Solver.h">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/ClausesBuffer.cc">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/ClausesBuffer.h">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/Main.cc">
+			<Option target="glucose-syrup"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/MultiSolvers.cc">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/MultiSolvers.h">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/ParallelSolver.cc">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/ParallelSolver.h">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/SharedCompanion.cc">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/SharedCompanion.h">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/SolverCompanion.cc">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/SolverCompanion.h">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/SolverConfiguration.cc">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/parallel/SolverConfiguration.h">
+			<Option target="glucosep"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/simp/Main.cc">
+			<Option target="glucose-simp"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/simp/SimpSolver.cc">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/simp/SimpSolver.h">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/utils/Options.cc">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/utils/Options.h">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/utils/System.cc">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/utils/System.h">
+			<Option target="glucosep"/>
+			<Option target="glucose"/>
+		</Unit>
+		<Unit filename="/Volumes/MAC/glucose-syrup-4.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/glucose-mpp.dir/MPP/Main.cc.o  -o glucose-mpp  /usr/lib/libz.dylib libglucose.a /usr/lib/libz.dylib 

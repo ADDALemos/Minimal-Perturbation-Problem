@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/glucose-syrup.dir/parallel/Main.cc.o  -o glucose-syrup  /usr/lib/libz.dylib libglucosep.a /usr/lib/libz.dylib 

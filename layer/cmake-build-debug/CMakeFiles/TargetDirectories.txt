@@ -1,0 +1,7 @@
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/glucose-mpp.dir
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/glucose-simp.dir
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/glucose-syrup.dir
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/glucosep.dir
+/Volumes/MAC/glucose-syrup-4.1/cmake-build-debug/CMakeFiles/glucose.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/MAC/glucose-syrup-4.1/MPP/MPPsolver.h
+string
+-
+SolverWrapper.h
+/Volumes/MAC/glucose-syrup-4.1/MPP/SolverWrapper.h
+
+/Volumes/MAC/glucose-syrup-4.1/MPP/Main.cc
+iostream
+-
+SingleShot.h
+/Volumes/MAC/glucose-syrup-4.1/MPP/SingleShot.h
+MPPsolver.h
+/Volumes/MAC/glucose-syrup-4.1/MPP/MPPsolver.h
+
+/Volumes/MAC/glucose-syrup-4.1/MPP/SingleShot.h
+MPPsolver.h
+/Volumes/MAC/glucose-syrup-4.1/MPP/MPPsolver.h
+SolverWrapper.h
+/Volumes/MAC/glucose-syrup-4.1/MPP/SolverWrapper.h
+iostream
+-
+
+/Volumes/MAC/glucose-syrup-4.1/MPP/SolverWrapper.h
+
